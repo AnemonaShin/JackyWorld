@@ -1,0 +1,96 @@
+@media screen and (max-width: 700px){
+	.flexbox {
+		position: relative;
+		top: 320px;
+		left: 20px;
+	}
+	#title header {
+		font-size: 90px;
+	}
+	#Menu nav {
+		width: 90%;
+	}
+	.foot {
+		height: 90%;
+	}
+	#IMGA {
+		width: 50px;
+	}
+}
+.flexbox {
+	display: flex;
+	border-radius: 50px;
+	border : 20px solid red;
+	margin: 20px 100px;
+	width: 200px;
+	background-color: red;
+	float: right;
+}
+.box {
+	width: 100px;
+	padding: 0;
+	color: white;
+	font-size: 30px;
+}
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.foot {
+	position: fixed;
+	height: 100px;
+	bottom: -50px;
+	right: 50px;
+	color: white;
+}
+#title {
+	position: absolute;
+	font-size: 100;
+	top: 20px;
+	left: 50px;
+	width: 50px;
+	background-color: red;
+	border : 1px;
+	border-color: red;
+	border-radius: 10px;
+	color: white;
+}
+#POSITIONA {
+	position: absolute;
+	top: 50px;
+	left: 350px; 
+}
+#IMGA {
+	width: 200px;
+}
+#Menu nav {
+	position: absolute;
+	top: 250px;
+	left: -30px;
+	font-size: 20;
+}
+#Menu li {
+	display: inline;
+}
+#Menu nav ul {
+	list-style-type: none;
+}
+#Menu nav ul a {
+	text-decoration: none;
+	color: white;
+	background-color: red; 
+	border: 1px;
+	border-color: red;
+	border-radius: 5px;
+}
+#Menu nav ul a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: cyan; 
+	border: 1px;
+	border-color: cyan;
+	border-radius: 5px;
+	text-decoration-line: line-through;
+}
