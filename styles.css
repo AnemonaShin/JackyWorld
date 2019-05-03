@@ -1,0 +1,174 @@
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@media screen and (max-width: 700px){
+	#First header{
+		position: absolute;
+		top: 300px;
+		left: 60px;
+		color : white;
+		text-decoration-line: underline;
+		text-decoration-color: red;
+	}
+	#First h3{
+		position: absolute;
+		top: 350px;
+		left: 20px;
+		width: 70px;
+		color: white;
+	}
+	#First h3 p {
+		background-color: red;
+		width: 20px;
+		font-size: 30px;
+		position: absolute;
+		top: -70px;
+		left: 110px;
+	}
+	#Second header {
+		position: absolute;
+		left : 60px;
+		top: 450px;
+		color: white;
+		text-decoration-line: underline;
+		text-decoration-color: red;
+	}
+	#Second h3 {
+		position: absolute;
+		right: 450px;
+		top: 350px;
+		color: white;
+		width: 500px;
+	}
+	#Third header {
+		position: absolute;
+		right: 200px;
+		width: 15px;
+		background-color: red;
+		font-size: 25px;
+		color: white;
+		border: 1px;
+		border-radius: 5px;
+		border-color: red;
+	}
+	#Third video {
+		position: absolute;
+		top: -35;
+		right: 30;
+	}
+}
+#POSITIONA {
+	position: absolute;
+	top: 50px;
+	left: 350px;
+}
+#IMGB {
+	position: absolute;
+	bottom: 80px;
+	right: 50px; 
+}
+.foot {
+	position: fixed;
+	height: 100px;
+	bottom: -50px;
+	right: 50px;
+	color: white;
+}
+#title {
+	position: absolute;
+	font-size: 100;
+	top: 20px;
+	left: 50px;
+	width: 50px;
+	background-color: red;
+	border : 1px;
+	border-color: red;
+	border-radius: 10px;
+	color: white;
+}
+#Menu nav {
+	position: absolute;
+	top: 250px;
+	left: -30px;
+	font-size: 20;
+}
+#Menu li {
+	display: inline;
+}
+#Menu nav ul {
+	list-style-type: none;
+}
+#Menu nav ul a {
+	text-decoration: none;
+	color: white;
+	background-color: red; 
+	border: 1px;
+	border-color: red;
+	border-radius: 5px;
+}
+#Menu nav ul a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: cyan; 
+	border: 1px;
+	border-color: cyan;
+	border-radius: 5px;
+	text-decoration-line: line-through;
+}
+#First header{
+	position: absolute;
+	top: 300px;
+	left: 60px;
+	color : white;
+	text-decoration-line: underline;
+	text-decoration-color: red;
+}
+#First h3{
+	position: absolute;
+	top: 350px;
+	left: 20px;
+	width: 70px;
+	color: white;
+}
+#First h3 p {
+	background-color: red;
+	width: 20px;
+	font-size: 60px;
+	position: absolute;
+	top: -70px;
+	left: 110px;
+}
+#Second header {
+	position: absolute;
+	right: 600px;
+	top: 300px;
+	color: white;
+	text-decoration-line: underline;
+	text-decoration-color: red;
+}
+#Second h3 {
+	position: absolute;
+	right: 450px;
+	top: 350px;
+	color: white;
+	width: 500px;
+}
+#Third header {
+	position: absolute;
+	right: 100px;
+	width: 15px;
+	background-color: red;
+	font-size: 25px;
+	color: white;
+	border: 1px;
+	border-radius: 5px;
+	border-color: red;
+}
+#Third video {
+	position: absolute;
+	top: -35;
+	right: 20;
+}
